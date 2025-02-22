@@ -1,0 +1,120 @@
+<script type="text/javascript">
+    function toggleElement(elemId, buttonId) {
+        var button = document.getElementById(buttonId);
+        if(button.value=="hide") {
+            button.value = "show";
+            button.innerHTML = "show";
+            document.getElementById(elemId).style.display = 'none';
+        }
+        else {
+            button.value = "hide";
+            button.innerHTML = "hide";
+            document.getElementById(elemId).style.display = 'block';
+        }
+    }
+</script>
+
+<title>PigFreak - Climbing</title>
+<link rel="stylesheet" href="../assets/whale_style.css">
+<link rel="shortcut icon" type="image/ico" href="../assets/favicon.ico">
+<script src="../plugins/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="../plugins/fancybox/ui-main/dist/fancybox/fancybox.css" />
+<script src="../plugins/fancybox/ui-main/dist/fancybox/fancybox.umd.js"></script>
+<div class="container">
+    <h1>climbing</h1>
+    <div class="navbar">
+        <a href="/index.html">home</a>
+        <a href="/pages/bouldering.html">bouldering</a>
+        <a href="/pages/climbing.html">climbing</a>
+        <a href="/pages/photos.html">photos</a>
+        <a href="/pages/osrs.html">runescape</a>
+        <a href="/pages/links.html">links</a>
+    </div>
+    
+    <h2>notable routes <button id="notaButton" value="hide" onclick="toggleElement('notable','notaButton')">hide</button></h2>
+    <ul class="climb-list" id="notable">
+        <li><h3>Winter Harvest (5.8 onsight) - Lead - Reed's Creek, WV</h3></li>
+        <li><h4>August 24, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/winter_harvest_film.JPEG" data-fancybox="notable_gallery" data-caption="Winter Harvest (5.8) - Reed's Creek, WV">
+                <img src="../imgs/climbing/thumbnails/winter_harvest_film.JPEG" width="200">
+            </a>
+        </li>
+        <li>
+            Super fun route with interesting moves for a 5.8. This was also my tallest route at 70ft so it was really cool getting to the top and looking out 
+            over the trees.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/110620729/winter-harvest" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+
+        <li><h3>Public Service (5.8+ onsight) - Lead - Safe Harbor, PA</h3></li>
+        <li><h4>August 24, 2024</h4></li>
+        <li>[No picture taken]</li>
+        <li>
+            This was my first outdoor lead route! Felt super smooth which wasn't too surprising given the grade, but the final move was shockingly difficult. Took me
+            a few seconds to mentally prepare for it but it was just a no hands, high foot move up to a jug where you can clip the anchors. Strangely felt less scary
+            than lead climbing in a gym.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107383254/public-service" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+
+        <li><h3>Tenuous Odyssey (5.10b) - Top Rope - Safe Harbor, PA</h3></li>
+        <li><h4>August 24, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/tenuous_odyssey_digital.JPEG" data-fancybox="notable_gallery" data-caption="Tenuous Odyssey (5.10b) - Safe Harbor, PA">
+                <img src="../imgs/climbing/thumbnails/tenuous_odyssey_digital.JPEG" width="200">
+            </a>
+        </li>
+        <li>
+            Most of this route felt pretty chill, especially being on top rope, but the moves from the last bolt to the anchors felt so hard. I rarely get to
+            practice slab so thats probably a big part of it, but standing on super thin vertical edges with not so great hand holds was rough. I had to hang
+            there a few times, but eventually got it.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107720675/tenuous-odyssey" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+
+        <li><h3>Alberton Roof (5.9-) - Top Rope - Alberton Rock, Patapsco Valley State Park, MD</h3></li>
+        <li><h4>June 15, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/alberton_roof_digital.jpg" data-fancybox="notable_gallery" data-caption="Alberton Roof (5.9-) - Patapsco Valley State Park, MD">
+                <img src="../imgs/climbing/thumbnails/alberton_roof_digital.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            Really fun moves on the roof followed by really chill slab. This was tons of fun.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/117341254/alberton-roof" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+    </ul>
+
+    <h2 style="padding-top:5%">projects <button id="projButton" value="hide" onclick="toggleElement('projects','projButton')">hide</button></h2>
+    <ul class="climb-list" id="projects">
+        <li><h3>Mental As Anything (5.9+) - Safe Harbor, PA</h3></li>
+        <li><h4></h4></li>
+        <li></li>
+        <li>
+            I made it to the second to last bolt on this one, but couldn't finish it. My feet were hurting from my new shoes and it was pretty hot at that
+            point so I'm hoping that was the reason I couldn't finish it and I can do it easily next time, but we'll see.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107375223/mental-as-anything" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+    </ul>
+
+    <h2 style="padding-top:5%"><a href="https://www.mountainproject.com/user/201531318/jack-dempster" target="_blank" rel="noopener noreferrer">mountain project profile</a></h2>
+    
+    <h2 style="padding-top:5%">gym stats</h2>
+    <ul>
+        <li>hardest route (top rope): 5.12-</li>
+        <li>hardest route (lead): 5.11-</li>
+    </ul>
+    
+    <h2 style="padding-top:5%">current gear</h2>
+    <ul style="padding-bottom:5%">
+        <li>Shoes: La Sportiva Solution & La Sportiva Futura</li>
+        <li>Harness: Wild Country Session Harness</li>
+        <li>Rope: Mammut Crag We Care Classic 9.5mm</li>
+        <li>Quickdraws: Petzl Djinn Axess & Petzl Spirit Express</li>
+    </ul>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            Fancybox.bind("[data-fancybox]", {});
+        });
+    </script>
+</div>

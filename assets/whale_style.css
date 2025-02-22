@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import
+url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap');
+
+@font-face {
+  font-family: 'runescape_uf';
+  src: url('../fonts/runescape_uf.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  --bgc: #ad8b50;
+  --tc: #fffded;
+  --lc: #156338;
+  --tc1: #136f63;
+  --tc2: #363457;
+  background-color: var(--bgc);
+  color: var(--tc);
+  font-family: 'Frank Ruhl Libre';
+  text-align: center;
+  font-size: 2.25vh;
+}
+
+.datelist {
+  text-align: left;
+  width: max-content;
+  margin: auto;
+}
+
+.whisper {
+  color: darkgray;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+.title {
+  padding-left: 2.25vh;
+}
+
+.date {
+  font-size: 2vh;
+}
+
+table {
+  margin: auto;
+  max-width: 90%;
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
+  word-wrap: break-word;
+  max-width: 20vw;
+}
+
+tr {
+  font-size: 2.5vh;
+}
+
+tr:nth-child(even) {
+  background-color: var(--tc1);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--tc2);
+}
+
+.container {
+  text-align: center;
+  max-width: 100%;
+}
+
+.post {
+  text-align: left;
+  width: 40%;
+  min-width: 50vh;
+  max-width: 100%;
+  margin: auto;
+}
+
+.post h2 {
+  margin-bottom: 0;
+}
+
+.post h5 {
+  margin-top: 1vh;
+}
+
+code {
+    font-family: 'IBM Plex Mono', 'monospace';    
+    font-size: 1.75vh;
+    background-color: var(--tc2); /* Dark gray background */
+    color: var(--tc); /* Light color text for contrast */
+    padding: 0.4em 0.4em; /* Add some padding around the text */
+    border-radius: 3px; /* Rounds the corners */
+    display: inline-block; /* Makes the element inline but able to define padding and dimensions */
+    /* width and height can be set if you want specific dimensions */
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5vh;
+  padding: 0px;
+  margin: 0;
+  max-width: 100%;
+}
+
+a {
+  color: var(--lc);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.photodiv {
+  width: 60%;
+  min-width: 50vh;
+  max-width: 100%;
+  max-width: none;
+  margin: auto;
+}
+
+.photodiv img {
+  padding-top: 0;
+}
+
+.osrsdiv {
+  width: 60%;
+  min-width: 50vh;
+  max-width: 100%;
+  max-width: none;
+  margin: auto;
+}
+
+.osrsdiv img {
+  padding-top: 0;
+  padding-left: 1em;
+}
+
+img {
+  aspect-ratio: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 90vh;
+  margin-bottom: 3vh;
+}
+
+.shrinkwrap2 img {
+  width: 30%;
+  min-width: 40vh;
+  max-width: 40vh;
+  margin: auto;
+}
+
+.shrinkwrap img {
+  border-radius: 5px;
+  width: 40%;
+  min-width: 50vh;
+  max-width: 70%;
+  margin: auto;
+}
+
+.photodiv .album {
+  max-width: 50vh;
+}
+
+/*
+img {
+  width: 50%;
+  min-width: 80vh;
+  max-width: 100%;
+  margin: auto;
+  aspect-ratio: auto;
+  margin-bottom: 3vh;
+}
+*/
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+ol {
+    list-style-position: inside;
+}
+
+.navbar {
+  font-size: 3vh;
+  line-height: 2.75rem;
+  margin-bottom: 1vh;
+  word-spacing: 0.5rem;
+  max-width: 100%;
+}
+
+.navbar a {
+  color: var(--tc);
+}
+
+.post img {
+  max-width: 98%;
+  display: block;
+  border-radius: 5px;
+}
+
+.climb-list { 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.climb-list h4 { 
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.climb-list h3 { 
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.climb-list img {
+  aspect-ratio: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 70vh;
+  margin-bottom: 3vh;
+}
+
+.climb-list video, source {
+  aspect-ratio: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 70vh;
+  margin-bottom: 3vh;
+}
+
+.osrstext {
+  font-family: runescape_uf;
+  color: #FFFF00;
+  cursor: url('../imgs/osrs/dscim_cursor.png'), auto;
+}
+
+.osrstext h1, h3 {
+  font-weight: 500;
+}
+
+.osrstext h4, h5 {
+  font-weight: 300;
+}
+
+.osrstext li {
+  font-weight: 300;
+}
+
+.drop-list { 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.drop-list h4 { 
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.drop-list h5 { 
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.drop-list img {
+  aspect-ratio: auto;
+  max-width: 90%;
+  height: auto;
+  max-height: 70vh;
+  margin-bottom: 3vh;
+}
+
+.no-padding img {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.no-padding h4 {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.imgcaption {
+  padding-bottom: 0;
+}

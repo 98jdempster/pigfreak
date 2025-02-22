@@ -1,0 +1,64 @@
+<title>PigFreak - RuneScape</title>
+<link rel="stylesheet" href="../assets/whale_style.css">
+<link rel="shortcut icon" type="image/ico" href="../assets/favicon.ico">
+<script src="../plugins/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="../plugins/fancybox/ui-main/dist/fancybox/fancybox.css" />
+<script src="../plugins/fancybox/ui-main/dist/fancybox/fancybox.umd.js"></script>
+<div class="osrstext">
+  <div class="container">
+    <h1>RuneScape</h1>
+    <div class="navbar">
+      <a href="/index.html">home</a>
+      <a href="/pages/bouldering.html">bouldering</a>
+      <a href="/pages/climbing.html">climbing</a>
+      <a href="/pages/photos.html">photos</a>
+	    <a href="/pages/osrs.html">runescape</a>
+      <a href="/pages/links.html">links</a>
+    </div>
+
+    <div class="no-padding">
+      <h3>Current Stats</h3>
+      <img src="../imgs/osrs/stats.png">
+      <h4>Combat Level: 119</h4>
+      <h4>(Ironman btw)</h4>
+      <br />
+    </div>
+
+    <h3>Goals</h3>
+    <div class="post">
+        <ol>
+            <li>95 Slayer to unlock Hydra</li>
+            <li>93 Crafting to boost for Tormented Bracelet and Amulet of Rancour</li>
+            <li>89 Smithing for rune darts</li>
+            <li>Get Lightbearer from Tombs of Amascut</li>
+            <li>Learn solo Chambers of Xeric</li>
+        </ol>
+    </div>
+
+    <h3 style="padding-top:5%">Drops & Achievements</h3>
+    <div class="osrsdiv" id="gallery"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          fetch("../imgs/json/osrs.json")
+              .then(response => response.json())
+              .then(images => {
+                  const gallery = document.getElementById("gallery");
+                  images.reverse().forEach(image => {
+                      const link = document.createElement("a");
+                      link.href = image.src;
+                      link.dataset.fancybox = "gallery";
+                      link.dataset.caption = image.caption + " - " + image.date;
+                      link.innerHTML = `<img src="${image.thumb}" alt="${image.caption}" width="150">`;
+                      gallery.appendChild(link);
+                  });
+              })
+              .catch(error => console.error("Error loading JSON:", error));
+      });
+  </script>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        Fancybox.bind("[data-fancybox]", {});
+    });
+  </script>
+</div>

@@ -1,0 +1,532 @@
+<script type="text/javascript">
+    function toggleElement(elemId, buttonId) {
+        var button = document.getElementById(buttonId);
+        if(button.value=="hide") {
+            button.value = "show";
+            button.innerHTML = "show";
+            document.getElementById(elemId).style.display = 'none';
+        }
+        else {
+            button.value = "hide";
+            button.innerHTML = "hide";
+            document.getElementById(elemId).style.display = 'block';
+        }
+    }
+</script>
+
+<title>PigFreak - Bouldering</title>
+<link rel="stylesheet" href="../assets/whale_style.css">
+<link rel="shortcut icon" type="image/ico" href="../assets/favicon.ico">
+<script src="../plugins/jquery-3.7.1.min.js"></script>
+<link rel="stylesheet" href="../plugins/fancybox/ui-main/dist/fancybox/fancybox.css" />
+<script src="../plugins/fancybox/ui-main/dist/fancybox/fancybox.umd.js"></script>
+<div class="container">
+    <h1>bouldering</h1>
+    <div class="navbar">
+        <a href="/index.html">home</a>
+        <a href="/pages/bouldering.html">bouldering</a>
+        <a href="/pages/climbing.html">climbing</a>
+        <a href="/pages/photos.html">photos</a>
+        <a href="/pages/osrs.html">runescape</a>
+        <a href="/pages/links.html">links</a>
+    </div>
+    
+    <h2>first ascents <button id="faButton" value="hide" onclick="toggleElement('first-ascents','faButton')">hide</button></h2>
+    <ul class="climb-list" id="first-ascents">
+        <li><h3>Neon Executioner (V4 PG13) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>September 14, 2024</h4></li>
+        <li>
+            <!--<img src="../imgs/climbing/neon_executioner_topo.jpg">
+            <video controls><source src="../vids/climbing/neon_executioner_fa.MP4" type="video/mp4"></video>-->
+            <a href="../imgs/climbing/neon_executioner_topo.jpg" data-fancybox="fa_gallery" data-caption="Neon Executioner Topo">
+                <img src="../imgs/climbing/thumbnails/neon_executioner_topo.jpg" width="200">
+            </a>
+            <a href="../vids/climbing/neon_executioner_fa.MP4" data-fancybox="fa_gallery" data-caption="Neon Executioner FA">
+                <img src="../vids/climbing/thumbnails/neon_executioner_fa.jpg" width="200">
+            </a>
+            <br />
+        </li>
+        <li>
+            I felt like I was going to be executed doing this problem. Everything was sharp and the top out was tough, but the 
+            campus start and the high heel hooks were so fun, I loved coming up with and doing this one. I'll definitely try it 
+            again next time I'm in Catoctin to make sure V4 feels like the right grade.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/126901724/neon-executioner" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Frankenweenie (V0 PG13) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>September 14, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/frankenweenie_topo.jpg" data-fancybox="fa_gallery" data-caption="Frankenweenie Topo">
+                <img src="../imgs/climbing/thumbnails/frankenweenie_topo.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            As far as I know and can tell, no one has climbed this entire face around the corner from the Neon boulder so Frankenweenie
+            was just the easiest route I could find up the boulder. Each move felt really juggy and stable but the boulder is so dirty
+            and the rock is so flaky I never felt certain the rock would hold me. This thing is tall and the landing isn't great.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/126901858/frankenweenie" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Neon Guillotine Traverse (V1) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>April 13, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/neon_guillotine_traverse_topo.jpg" data-fancybox="fa_gallery" data-caption="Neon Guillotine Traverse Topo">
+                <img src="../imgs/climbing/thumbnails/neon_guillotine_traverse_topo.jpg" width="200">
+            </a>
+            <a href="../imgs/climbing/neon_guillotine_traverse_action_film.jpg" data-fancybox="fa_gallery" data-caption="Neon Guillotine Traverse FA">
+                <img src="../imgs/climbing/thumbnails/neon_guillotine_traverse_action_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            My first ever first ascent of a boulder (as far as I know). I can't be certain no one has ever done this before
+            until other people check it out and let me know on mountain project so for now it counts. The holds felt very dusty 
+            and unused so I doubt anyone has done this, at least not in a long time. Starts as a sit start
+            on the big blade looking vertical slab/flake thing. Traverse left along it with basically no foot holds, just
+            hands on the lip of the blade until you can reach up to the overhang above. From there just traverse left and
+            top out the same way as Neon Milk. It felt really cool making up my own boulder problem and figuring it out as I 
+            climbed it. Gave it the name Neon Guillotine Traverse since it starts on the big blade looking rock and finishes 
+            with a traverse. Gave it a V1 grade because the most difficult portion was the start on the blade, but even that
+            was easily done on my first attempt.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/125992318/neon-guillotine-traverse" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Neon Guillotine (V2 PG13) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>April 13, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/neon_guillotine_topo.jpg" data-fancybox="fa_gallery" data-caption="Neon Guillotine Topo">
+                <img src="../imgs/climbing/thumbnails/neon_guillotine_topo.jpg" width="200">
+            </a>
+            <a href="../imgs/climbing/neon_guillotine_butt.jpg" data-fancybox="fa_gallery" data-caption="Neon Guillotine FA">
+                <img src="../imgs/climbing/thumbnails/neon_guillotine_butt.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This one is the same start as Neon Guillotine Traverse, the main difference is the top out. Rather than traversing
+            left, top out towards the right where there are less holds and generally worse holds. The holds on the top out for 
+            this one felt very dirty so I definitely doubt anyone has done this one. I gave it a V3 since the top out is much
+            trickier than the traverse as you dont have any good footholds other than the blade until you make some big moves
+            towards the top, but it might be closer to V2, I'll need to climb it again to be sure. I gave it a PG13 since if you
+            fall on the crux you will likely land on the blade. Definitely need someone holding a crash pad over the blade while
+            you climb to make it safe.  
+        </li>
+        <li><a href="https://www.mountainproject.com/route/125992385/neon-guillotine" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+    </ul>
+
+    <h2>candyman boulder development <button id="candyButton" value="hide" onclick="toggleElement('candyman','candyButton')">hide</button></h2>
+    <ul class="climb-list" id="candyman">
+        <li>Topography of the boulder</li>
+        <li>
+            <a href="../imgs/climbing/candyman_boulder_dev.JPEG" data-fancybox="candyman_gallery" data-caption="Candyman boulder topo">
+                <img src="../imgs/climbing/thumbnails/candyman_boulder_dev.JPEG" width="200">
+            </a>
+        </li>
+        <br />
+
+        <li>Working on improving the landing</li>
+        <li>
+            <a href="../imgs/climbing/candyman_landing_1.JPEG" data-fancybox="candyman_gallery" data-caption="Candyman boulder landing">
+                <img src="../imgs/climbing/thumbnails/candyman_landing_1.JPEG" width="200">
+            </a>
+            <a href="../imgs/climbing/candyman_landing_2.JPEG" data-fancybox="candyman_gallery" data-caption="Candyman boulder landing">
+                <img src="../imgs/climbing/thumbnails/candyman_landing_2.JPEG" width="200">
+            </a>
+        </li>
+        <br />
+
+        <li>Problem Ideas (these could end up being impossible)</li>
+        <li>
+            <a href="../imgs/climbing/candyman_idea_1.png" data-fancybox="candyman_gallery" data-caption="Candyman boulder routes">
+                <img src="../imgs/climbing/thumbnails/candyman_idea_1.png" width="200">
+            </a>
+            <a href="../imgs/climbing/candyman_idea_2.png" data-fancybox="candyman_gallery" data-caption="Candyman boulder routes">
+                <img src="../imgs/climbing/thumbnails/candyman_idea_2.png" width="200">
+            </a>
+            <a href="../imgs/climbing/candyman_idea_3.png" data-fancybox="candyman_gallery" data-caption="Candyman boulder routes">
+                <img src="../imgs/climbing/thumbnails/candyman_idea_3.png" width="200">
+            </a>
+        </li>
+        <br />
+
+        <li>Progress on unfinished projects</li>
+        <li>
+            <a href="../vids/climbing/candyman_project_1.MP4" data-fancybox="candyman_gallery" data-caption="Unfinished project on the Candyman boulder">
+                <img src="../vids/climbing/thumbnails/candyman_project_1.jpg" width="200">
+            </a>
+        </li>
+    </ul>
+
+    <h2>notable problems <button id="notaButton" value="hide" onclick="toggleElement('notable','notaButton')">hide</button></h2>
+    <ul class="climb-list" id="notable">
+        <li><h3>Hellen Keller (V1 Flash) - Flagstaff Amphitheater, Flagstaff Mountain, CO</h3></li>
+        <li><h4>May 25, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/hellen_keller_flagstaff.JPEG" data-fancybox="notable_gallery" data-caption="Hellen Keller (V1) - Flagstaff Mountain, CO">
+                <img src="../imgs/climbing/thumbnails/hellen_keller_flagstaff.JPEG" width="200">
+            </a>
+        </li>
+        <li>
+            This was a really cool V1 that started with a heel hook and went into some reachy moves to good crimps. The 
+            top out was relatively scary cause the only decent hold at the top was a little slippery pebble and the landing
+            was pretty terrible, but still super fun.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107300530/helen-keller?method=dropdown&query=hellen%20keller" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Southeast Bulge (V0) - Flagstaff Amphitheater, Flagstaff Mountain, CO</h3></li>
+        <li><h4>May 25, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/southeast_bulge_flagstaff.JPEG" data-fancybox="notable_gallery" data-caption="Southeast Bulge (V0) - Flagstaff Mountain, CO">
+                <img src="../imgs/climbing/thumbnails/southeast_bulge_flagstaff.JPEG" width="200">
+            </a>
+        </li>
+        <li>
+            This was a pretty fun V0. Not really much to say other than it was my first problem I finished during my first
+            trip to Colorado so it was also my first time climbing on sandstone.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107299875/southeast-bulge" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Hot Forged (V4) - Thurmont Vista Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>April 20, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/hot_forged.jpg" data-fancybox="notable_gallery" data-caption="Hot Forged (V4) - Catoctin Mountain Park, MD">
+                <img src="../imgs/climbing/thumbnails/hot_forged.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            Really awesome to get my first V4, but I kind of wish it was on a different problem. I did this one twice
+            because the mountain project description didn't give great direction and I wanted to make sure I did it right.
+            Both ways I did it, it just didnt feel that great until near the top. Some really cool tiny crimps and pinches
+            on it though.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/112362405/hot-forged" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>What's a King to a God? (V3 PG13 flash) - Heavens boulder, Northwest Branch, MD</h3></li>
+        <li><h4>March 30, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/whats_a_king_to_a_god_film.jpg" data-fancybox="notable_gallery" data-caption="What's a King to a God? (V3) - Northwest Branch, MD">
+                <img src="../imgs/climbing/thumbnails/whats_a_king_to_a_god_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            Really glad I flashed this. Sit start on a jug into a sloper felt really cool. Cool sharp crimps in the middle 
+            section and then finishing on V1-2 slab was great. The top out was probably the easiest section, but easily the scariest
+            since you're relying heavily on your feet not slipping and making you fall ~25ft. Favorite climb I've ever done.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/122095801/whats-a-king-to-a-god" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Iron Oxide (V2) - Thurmont Vista Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>April 20, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/iron_oxide.jpg" data-fancybox="notable_gallery" data-caption="Iron Oxide (V2) - Catoctin Mountain Park, MD">
+                <img src="../imgs/climbing/thumbnails/iron_oxide.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This one had really fun and satisfying movements on big holds. This is definitely one of my favorite V2s
+            I've done.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/112362486/iron-oxide" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Groaner (V2) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>April 13, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/groaner_film.jpg" data-fancybox="notable_gallery" data-caption="Groaner (V2) - Catoctin Mountain Park, MD">
+                <img src="../imgs/climbing/thumbnails/groaner_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            The holds on this one are some of my favorites in all of Catoctin. Such smooth, slopey crimps that don't feel
+            too bad on the skin. Its not a very tall boulder either so it never feels very scary, even when the crux is
+            probably the top out.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/119734396/groaner" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Separation Anxiety (V2) - Morgan Run, MD</h3></li>
+        <li><h4>February 10, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/separation_anxiety_film.jpg" data-fancybox="notable_gallery" data-caption="Separation Anxiety (V2) - Morgan Run, MD">
+                <img src="../imgs/climbing/thumbnails/separation_anxiety_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This was my first outdoor V2. It felt like it was mostly a V2 because the reaches were pretty long, but a lot
+            of the holds felt really good. There was a pretty large flake that flexed whenever I held it so that was
+            pretty sketchy.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107739209/separation-anxiety" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>The Gulag (V1-2) - Thurmont Vista Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>March 10, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/the_gulag_film.jpg" data-fancybox="notable_gallery" data-caption="The Gulag (V1-2) - Catoctin Mountain Park, MD">
+                <img src="../imgs/climbing/thumbnails/the_gulag_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            The start to this one was definitely the hardest part. Started on small crimps with a big move to better holds.
+            Once I got past that it wasn't too bad.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/114188045/the-gulag" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Play Time (V1+) - Morgan Run, MD</h3></li>
+        <li><h4>February 10, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/play_time_film.jpg" data-fancybox="notable_gallery" data-caption="Play Time (V1+) - Morgan Run, MD">
+                <img src="../imgs/climbing/thumbnails/play_time_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            My first ever outdoor boulder. Might be biased since it was my first boulder, but it was really fun. I normally
+            don't really like traverse problems, but this one felt good. Tiny footholds and cool pocket holds. Really
+            easy top out walking up a slab with great crimps on it.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/107752034/play-time" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Walk into This Guy (V1 flash) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4>March 16, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/walk_into_this_guy_film.jpg" data-fancybox="notable_gallery" data-caption="Walk Into This Guy (V1) - Catoctin Mountain Park, MD">
+                <img src="../imgs/climbing/thumbnails/walk_into_this_guy_film.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This was my first V1 flash. Nice moves on big holds on the lower portion of the boulder. The upper section
+            was a bit scary with some sketchy moves on a sidepull towards the top and a long reach to a jug. Lots
+            of fun.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/113070043/walk-into-this-guy" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+    </ul>
+
+    <h2>projects <button id="projButton" value="hide" onclick="toggleElement('projects','projButton')">hide</button></h2>
+    <ul class="climb-list" id="projects">
+        <li><h3>Smiley Face (V4) - Smiley Boulder, Mount Gretna, PA</h3></li>
+        <li><h4>Last attempt: November 5, 2024</h4></li>
+        <li>
+            <a href="../vids/climbing/smiley_top.mp4" data-fancybox="project_gallery" data-caption="Smiley Face (V4) top - Mount Gretna, PA">
+                <img src="../vids/climbing/thumbnails/smiley_top.jpg" width="200">
+            </a>
+            <a href="../vids/climbing/smiley_start.mp4" data-fancybox="project_gallery" data-caption="Smiley Face (V4) start - Mount Gretna, PA">
+                <img src="../vids/climbing/thumbnails/smiley_start.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This was the main problem I worked on during my first trip to Gretna. So much fun, the first move felt insane at first so I tried
+            the rest, skipping the first move and topped out. After that I tried the first move again and got it immediately, but couldn't 
+            actually link all of the moves, will definitely get it next time.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/106752727/smiley-face" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>40s (V3+) - 40 boulder, Patapsco Valley State Park, MD</h3></li>
+        <li><h4>Last attempt: October 26, 2024</h4></li>
+        <li>
+            <a href="../vids/climbing/40s_crux.mp4" data-fancybox="project_gallery" data-caption="40s (V3+) - Patapsco Valley State Park, MD">
+                <img src="../vids/climbing/thumbnails/40s_crux.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            Fun start with a heel hook and throwing for crimps. I feel like the crux was moving from the shallow pocket on the right up to
+            the top out. I worked out all of the moves on this but didn't actually top it out since I was alone and definitely need a spotter
+            for this one. The video is me working out what I felt was the crux, not a proper attempt from the start.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/118007478/40s" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Frameshift (V4) - Frameshift Boulder, Patapsco Valley State Park, MD</h3></li>
+        <li><h4>Last attempt: October 26, 2024</h4></li>
+        <li>
+            <a href="../vids/climbing/frameshift_start.mp4" data-fancybox="project_gallery" data-caption="Frameshift (V4) - Patapsco Valley State Park, MD">
+                <img src="../vids/climbing/thumbnails/frameshift_start.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            The start of this took me so long to actually get down, by the time I could consistently do it, the left hand side pull
+            had already destroyed my skin so it was tough to make much more progress on it.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/118007422/frameshift" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Winnie (V4+) - Frameshift Boulder, Patapsco Valley State Park, MD</h3></li>
+        <li><h4>Last attempt: October 26, 2024</h4></li>
+        <li>
+            <a href="../vids/climbing/winnie_start.mp4" data-fancybox="project_gallery" data-caption="Winnie (V4+) - Patapsco Valley State Park, MD">
+                <img src="../vids/climbing/thumbnails/winnie_start.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            I mostly wanted to try this because of its name, but the start was cool. I wish there were more videos of people doing this 
+            one because the only beta I could figure out was just the beta for the V6 variation.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/118007411/winnie" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <!--
+        <li><h3>Animal Jam (V3) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4></h4></li>
+        <li><img src="../imgs/climbing/animal_jam_project.jpg"></li>
+        <li>
+            Really sharp holds on this overhanging problem. I have the start down, but need to work on the middle 
+            section. The start is a semi-dynamic reach to a nice crimp, really fun to do.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/114296647/animal-jam" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+        
+        <li><h3>Closed on Sunday (V4 PG13) - Heavens boulder, Northwest Branch, MD</h3></li>
+        <li><h4></h4></li>
+        <li><img src="../imgs/climbing/closed_on_sunday_project.jpg"></li>
+        <li>
+            Sharp crimps on a scary highball. The holds don't feel too bad and it has the same top out as a V1, 
+            but still scary.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/122110366/closed-on-sunday" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+        -->
+        <li><h3>Static Shock (V5) - Thurmont Vista Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4></h4></li>
+        <li>
+            <a href="../vids/climbing/static_shock_attempt.MP4" data-fancybox="project_gallery" data-caption="Static Shock (V5) - Catoctin Mountain Park, MD">
+                <img src="../vids/climbing/thumbnails/static_shock_attempt.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            The first few moves are easy but it can be tricky getting wide enough to get my left hand as high as possible on the arete. Then its difficult to
+            walk your feet over since there aren't any decent footholds, just places to smear. It took me a few tries to get the first reach dialed in, but I 
+            think the dynamic throw for the final hold will take a lot longer, but this feels so close.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/112378457/static-shock" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+        <!--
+        <li><h3>Neon Pit Stain (V5) - Gateway Trail Boulders, Catoctin Mountain Park, MD</h3></li>
+        <li><h4></h4></li>
+        <li>
+            <img src="../imgs/climbing/neon_pit_stain_project.jpg">
+            <img src="../imgs/climbing/neon_pit_stain_action.jpg">
+        </li>
+        <li style="clear:left;">
+            Super crimpy with long reaches. Only been able to do a few of the moves. Starts on tiny crimps with a 
+            good heel hook. I think the start is the crux since holds are so tiny and its a big reach. Might need
+            to try pulling harder with my heel.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/112372681/neon-pit-stain" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        -->
+    </ul>
+
+    <h2>travel projects <button id="travelButton" value="hide" onclick="toggleElement('travel-projects','travelButton')">hide</button></h2>
+    <ul class="climb-list" id="travel-projects">
+        <li><h3>North Overhang (V3/4) - Pebble Boulder, Flagstaff Mountain, CO</h3></li>
+        <li><h4>Last Attempt - May 25, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/pebble_north_overhang1.JPEG" data-fancybox="travel_gallery" data-caption="North Overhang (V3/4) - Flagstaff Mountain, CO">
+                <img src="../imgs/climbing/thumbnails/pebble_north_overhang1.JPEG" width="200">
+            </a>
+            <a href="../imgs/climbing/pebble_north_overhang2.JPEG" data-fancybox="travel_gallery" data-caption="North Overhang (V3/4) - Flagstaff Mountain, CO">
+                <img src="../imgs/climbing/thumbnails/pebble_north_overhang2.JPEG" width="200">
+            </a>
+        </li>
+        <li>
+            This is probably my favorite boulder problem I've ever attempted and I can't believe I didn't finish it. On my
+            first attempt, I made it to the top out section, trying to get over the overhang, but I couldn't find where to 
+            put my right hand, but watching videos back, all I needed to do was get my feet up a bit and then I could have
+            easily finished it. Still amazing problem though, each hold was just a small pebble to pinch or crimp and it 
+            required so much balance to stay on the wall. I would fly back to colorado just to try this one again.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/106214976/north-overhang" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>South Undercling (V3) - Flagstaff Amphitheater, Flagstaff Mountain, CO</h3></li>
+        <li><h4>Last Attempt - May 25, 2024</h4></li>
+        <li>
+            <a href="../imgs/climbing/south_undercling_flagstaff.jpg" data-fancybox="travel_gallery" data-caption="South Undercling (V3) - Flagstaff Mountain, CO">
+                <img src="../imgs/climbing/thumbnails/south_undercling_flagstaff.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This was another great problem that I don't know how I didn't finish. I made it to the top out and all I had to do
+            was move my left hand up and then get my feet up and there was plenty of great holds for both, but I think it was just 
+            early in the day when I was trying it and I had brain fog up there. Pretty cool and powerful feeling moves on it though,
+            would love to finish it someday.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/106955890/south-undercling" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+    </ul>
+
+    <h2>future projects <button id="futureButton" value="hide" onclick="toggleElement('future-projects','futureButton')">hide</button></h2>
+    <ul class="climb-list" id="future-projects">
+        <li><h3>Its Gone (V5) & 3rd Strike (V6) - Way Back Boulder, Patapsco Valley State Park, MD</h3></li>
+        <li><h4></h4></li>
+        <li>
+            <a href="../imgs/climbing/its_gone_topo.jpg" data-fancybox="future_gallery" data-caption="Its Gone (V5) - Patapsco Valley State Park, MD">
+                <img src="../imgs/climbing/thumbnails/its_gone_topo.jpg" width="200">
+            </a>
+            <a href="../imgs/climbing/3rd_strike_topo.jpg" data-fancybox="future_gallery" data-caption="3rd Strike (V6) - Patapsco Valley State Park, MD">
+                <img src="../imgs/climbing/thumbnails/3rd_strike_topo.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            This entire boulder looks so insanely cool, but the moves on these two problems look the most fun. I would love to check it out,
+            but the approach is long and I don't think I want to go out there until the winter or late fall when it'll be least overgrown. I 
+            also want to wait until I can for sure make decent progress on these problems so I don't waste my time hiking out there.
+        </li>
+        <li><a href="https://www.mountainproject.com/area/125740615/the-way-back-boulder" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Bashista Yo Sista (V5) - Mount Gretna, PA</h3></li>
+        <li><h4></h4></li>
+        <li>
+            <a href="../imgs/climbing/bashista_topo.jpg" data-fancybox="future_gallery" data-caption="Bashista Yo Sista (V5) - Mount Gretna, PA">
+                <img src="../imgs/climbing/thumbnails/bashista_topo.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            The moves on this looks super cool, hoping to make it out to Mount Gretna at some point in the next few months.
+        </li>
+        <li><a href="https://www.mountainproject.com/route/109696999/bashista-yo-sista" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+
+        <li><h3>Samhain (V6) - Mount Gretna, PA</h3></li>
+        <li><h4></h4></li>
+        <li>
+            <a href="../imgs/climbing/samhain_topo.jpg" data-fancybox="future_gallery" data-caption="Samhain (V6) - Mount Gretna, PA">
+                <img src="../imgs/climbing/thumbnails/samhain_topo.jpg" width="200">
+            </a>
+        </li>
+        <li>
+            Honestly I mostly want to do this one because of its name, but the movement looks cool and the boulder is beautiful
+        </li>
+        <li><a href="https://www.mountainproject.com/route/125730931/samhain" target="_blank" rel="noopener noreferrer">Mountain Project Link</a></li>
+        <br />
+    </ul>
+
+    <h2 style="padding-top:5%"><a href="https://www.mountainproject.com/user/201531318/jack-dempster" target="_blank" rel="noopener noreferrer">mountain project profile</a></h2>
+    
+    <h2 style="padding-top:5%">gym stats</h2>
+    <ul>
+        <li>hardest boulder problem: V5</li>
+        <li>hardest flashed boulder problem: V5</li>
+    </ul>
+    
+    <h2 style="padding-top:5%">current gear</h2>
+    <ul style="padding-bottom:5%">
+        <li>Shoes: La Sportiva Solution & La Sportiva Futura</li>
+        <li>Crash pads: Organic Full Pad and Mad Rock Mad Pad</li>
+    </ul>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            Fancybox.bind("[data-fancybox]", {});
+        });
+      </script>
+</div>
