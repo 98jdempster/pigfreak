@@ -364,5 +364,11 @@
         "thumb": "../imgs/osrs/thumbnails/pegasian_crystal.png",
         "caption": "Pegasian Crystal - Cerberus - 475 kc (1/128)",
         "date": "February 25, 2025"
+    },
+    {
+        "src": "../imgs/osrs/95_attack.png",
+        "thumb": "../imgs/osrs/thumbnails/95_attack.png",
+        "caption": "95 Attack",
+        "date": "February 26, 2025"
     }
 ]
