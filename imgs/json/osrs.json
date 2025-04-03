@@ -370,5 +370,11 @@
         "thumb": "../imgs/osrs/thumbnails/95_attack.png",
         "caption": "95 Attack",
         "date": "February 26, 2025"
+    },
+    {
+        "src": "../imgs/osrs/90_crafting.png",
+        "thumb": "../imgs/osrs/thumbnails/90_crafting.png",
+        "caption": "90 Crafting",
+        "date": "April 3, 2025"
     }
 ]
