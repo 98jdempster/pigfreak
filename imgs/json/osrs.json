@@ -382,5 +382,11 @@
         "thumb": "../imgs/osrs/thumbnails/94_crafting.png",
         "caption": "94 Crafting",
         "date": "April 12, 2025"
+    },
+    {
+        "src": "../imgs/osrs/92_cooking.png",
+        "thumb": "../imgs/osrs/thumbnails/92_cooking.png",
+        "caption": "92 Cooking",
+        "date": "April 12, 2025"
     }
 ]
