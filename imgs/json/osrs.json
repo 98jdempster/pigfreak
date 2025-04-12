@@ -376,5 +376,11 @@
         "thumb": "../imgs/osrs/thumbnails/90_crafting.png",
         "caption": "90 Crafting",
         "date": "April 3, 2025"
+    },
+    {
+        "src": "../imgs/osrs/94_crafting.png",
+        "thumb": "../imgs/osrs/thumbnails/94_crafting.png",
+        "caption": "94 Crafting",
+        "date": "April 12, 2025"
     }
 ]
