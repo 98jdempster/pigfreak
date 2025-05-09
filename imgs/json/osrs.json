@@ -388,5 +388,11 @@
         "thumb": "../imgs/osrs/thumbnails/92_cooking.png",
         "caption": "92 Cooking",
         "date": "April 12, 2025"
+    },
+    {
+        "src": "../imgs/osrs/92_defense.png",
+        "thumb": "../imgs/osrs/thumbnails/92_defense.png",
+        "caption": "92 Defense",
+        "date": "May 9, 2025"
     }
 ]
