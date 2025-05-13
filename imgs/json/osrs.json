@@ -394,5 +394,17 @@
         "thumb": "../imgs/osrs/thumbnails/92_defense.png",
         "caption": "92 Defense",
         "date": "May 9, 2025"
+    },
+    {
+        "src": "../imgs/osrs/final_zenyte.png",
+        "thumb": "../imgs/osrs/thumbnails/final_zenyte.png",
+        "caption": "4th Zenyte Shard - Demonic Gorilla - 2039 kc (1/300)",
+        "date": "May 10, 2025"
+    },
+    {
+        "src": "../imgs/osrs/95_crafting.png",
+        "thumb": "../imgs/osrs/thumbnails/95_crafting.png",
+        "caption": "95 Crafting",
+        "date": "May 13, 2025"
     }
 ]
