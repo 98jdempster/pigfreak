@@ -406,5 +406,11 @@
         "thumb": "../imgs/osrs/thumbnails/95_crafting.png",
         "caption": "95 Crafting",
         "date": "May 13, 2025"
+    },
+    {
+        "src": "../imgs/osrs/93_defense.png",
+        "thumb": "../imgs/osrs/thumbnails/93_defense.png",
+        "caption": "93 Defense",
+        "date": "May 30, 2025"
     }
 ]
