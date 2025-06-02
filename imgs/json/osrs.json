@@ -412,5 +412,17 @@
         "thumb": "../imgs/osrs/thumbnails/93_defense.png",
         "caption": "93 Defense",
         "date": "May 30, 2025"
+    },
+    {
+        "src": "../imgs/osrs/96_slayer.png",
+        "thumb": "../imgs/osrs/thumbnails/96_slayer.png",
+        "caption": "96 Slayer",
+        "date": "June 1, 2025"
+    },
+    {
+        "src": "../imgs/osrs/85_herblore.png",
+        "thumb": "../imgs/osrs/thumbnails/85_herblore.png",
+        "caption": "85 Herblore",
+        "date": "June 2, 2025"
     }
 ]
