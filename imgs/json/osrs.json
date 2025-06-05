@@ -424,5 +424,17 @@
         "thumb": "../imgs/osrs/thumbnails/85_herblore.png",
         "caption": "85 Herblore",
         "date": "June 2, 2025"
+    },
+    {
+        "src": "../imgs/osrs/eternal_crystal.png",
+        "thumb": "../imgs/osrs/thumbnails/eternal_crystal.png",
+        "caption": "Eternal Crystal - Cerberus 577 kc (1/128)",
+        "date": "June 4, 2025"
+    },
+    {
+        "src": "../imgs/osrs/prim_crystal.png",
+        "thumb": "../imgs/osrs/thumbnails/prim_crystal.png",
+        "caption": "Primordial Crystal - Cerberus 628 kc (1/128)",
+        "date": "June 4, 2025"
     }
 ]
