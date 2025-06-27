@@ -436,5 +436,11 @@
         "thumb": "../imgs/osrs/thumbnails/prim_crystal.png",
         "caption": "Primordial Crystal - Cerberus 628 kc (1/128)",
         "date": "June 4, 2025"
+    },
+    {
+        "src": "../imgs/osrs/94_defense.png",
+        "thumb": "../imgs/osrs/thumbnails/94_defense.png",
+        "caption": "94 Defense",
+        "date": "June 27, 2025"
     }
 ]
