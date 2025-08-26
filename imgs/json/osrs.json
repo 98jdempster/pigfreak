@@ -442,5 +442,17 @@
         "thumb": "../imgs/osrs/thumbnails/94_defence.png",
         "caption": "94 Defense",
         "date": "June 27, 2025"
+    },
+    {
+        "src": "../imgs/osrs/92_farming.png",
+        "thumb": "../imgs/osrs/thumbnails/92_farming.png",
+        "caption": "92 Farming",
+        "date": "August 22, 2025"
+    },
+    {
+        "src": "../imgs/osrs/bottomless_compost.png",
+        "thumb": "../imgs/osrs/thumbnails/bottomless_compost.png",
+        "caption": "Bottomless Compost Bucket - Hespori 65 kc (1/35)",
+        "date": "August 26, 2025"
     }
 ]
